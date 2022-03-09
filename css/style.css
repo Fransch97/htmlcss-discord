@@ -223,16 +223,39 @@ footer{
     padding: 60px;
 }
 
-footer .window section div ul{
-    list-style: none;
+.discord-color{
+    color: #7289DB;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .window section div ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer .window section div ul li a{
+    line-height: 30px;
+    color: white;
+}
 footer .window section div h3{
     font-size: 1.5rem;
 }
 
 .footer-top{
     border-bottom: solid 1px violet;
+    margin-bottom: 30px;
 }
 
 
@@ -249,7 +272,28 @@ footer .window section div h3{
     width: 15%;
 }
 
+.register a{
+    color: white;
+    background-color: #8EA1E1;
+    padding: 9px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: -1px;
+}
 
+.col.bigi p {
+    padding: 25px 0;
+}
+
+.ita{
+    width: 30px;
+}
+
+.socials li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+}
 
 
 
