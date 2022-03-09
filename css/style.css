@@ -189,6 +189,8 @@ section .window{
 
 .second-section, .last-section{
     background-color: rgb(228, 215, 215);
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
 }
 
 .last-section{
