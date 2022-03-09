@@ -5,6 +5,45 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.header-top .window nav{
+    text-align: center;
+}
+
+.header-top .window nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.header-top .window nav ul li a{
+    color: white;
+    display: inline-block;
+    line-height: 30px;
+    text-decoration: none;
+    /* background-color: red; */
+    margin: 0 15px;
+
+
+}
+
+
+
+.logo,.window nav ,.account{
+    margin: 20px 0;
+}
+
+
+
 
 /* UTILITY  */
 .window{
@@ -25,7 +64,7 @@
     float: left;
 }
 
-.float-left{
+.float-right{
     float: right;
 }
 
@@ -36,23 +75,43 @@
 
 
 /* HEADER  */
+
+/* header-top  */
 .header-top{
     background-color: #3161E0;
-    width: 100%;
 }
 
-
+/* left and right of header-top */
 .mini-space{
-    background: rgb(170, 170, 157);
-    width: 20%;
+    /* background: rgb(170, 170, 157); */
+    width: 15%;
     /* max-width: 20%; ???? magari dopo */
 }
 
-nav{
-    background-color: red;
-    min-width: 60%;
 
+/* center of header-top */
+.center-header-top{
+    /* background-color: red; */
+    min-width: 70%;
 }
+
+/* account  */
+.account a{
+    color: #3161E0;
+    background-color: white;
+    padding: 9px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: -1px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -64,7 +123,7 @@ nav{
 
 /* TEST'S FOR POSITIONS AND SIZE */
 .mini-space,nav{
-    min-height: 50px;
+    /* min-height: 50px; */
 }
 
 
