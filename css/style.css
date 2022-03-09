@@ -107,6 +107,23 @@ a{
 
 
 
+/* jumbo */
+.jumbo{
+    background-color: red;
+    min-height: 50vh;
+    text-align: center;
+    position: relative;
+}
+
+.jumbo-content{
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
 
 
 
