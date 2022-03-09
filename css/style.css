@@ -36,11 +36,14 @@ a{
 
 }
 
-
+h1{
+    font-size: 60px;
+}
 
 .logo,.window nav ,.account{
     margin: 20px 0;
 }
+
 
 
 
@@ -74,6 +77,7 @@ a{
 }
 
 
+
 /* HEADER  */
 
 /* header-top  */
@@ -96,6 +100,10 @@ a{
 }
 
 /* account  */
+.account{
+    text-align: end;
+
+}
 .account a{
     color: #255EE9;
     background-color: white;
@@ -109,10 +117,8 @@ a{
 
 /* jumbo */
 .jumbo{
-    background-color: red;
     min-height: 65vh;
     text-align: center;
-    position: relative;
     background-image: url(../img/jumbo.png);
     position: center;
     background-size: cover;
@@ -120,10 +126,7 @@ a{
 
 /* jumbo content  */
 .jumbo-content{
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
+ 
     color: white;
     
 }
@@ -168,8 +171,35 @@ header .jumbo .jumbo-content ul li  #on-brows{
 
 
 
-
 /* MAIN  */
+
+
+section .window{
+    padding: 200px 0;
+    
+}
+
+.content-section{
+    display: inline-block;
+    width: 35%;
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+.content-section p{
+    margin-top: 20px;
+}
+
+
+.second-section, .last-section{
+    background-color: rgb(214, 206, 206);
+}
+
+
+
+
+
+
 
 
 /* FOOTER  */
