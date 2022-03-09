@@ -15,6 +15,11 @@
 .inline-block{
     display: inline-block;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .float-left{
     float: left;
@@ -24,27 +29,28 @@
     float: right;
 }
 
+.section-height{
+    height: 300px;
+    background-color: green;
+}
 
 
 /* HEADER  */
-header{
-    background-color: #3161E0;
-    
-}
-
 .header-top{
-    background: greenyellow;
+    background-color: #3161E0;
+    width: 100%;
 }
 
 
 .mini-space{
     background: rgb(170, 170, 157);
     width: 20%;
+    /* max-width: 20%; ???? magari dopo */
 }
 
 nav{
     background-color: red;
-    width: 60%;
+    min-width: 60%;
 
 }
 
@@ -57,7 +63,7 @@ nav{
 
 
 /* TEST'S FOR POSITIONS AND SIZE */
-.header-top,.mini-space,nav{
+.mini-space,nav{
     min-height: 50px;
 }
 
