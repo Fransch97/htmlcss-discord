@@ -168,7 +168,14 @@ header .jumbo .jumbo-content ul li  #on-brows{
 
 
 /* MAIN  */
-
+.wave{
+    background-color: white;
+    color: red;
+    fill: red;
+}
+.wave-gray{
+    background-color: rgb(228, 215, 215);
+}
 
 section .window{
     padding: 200px 0;
@@ -189,13 +196,17 @@ section .window{
 
 .second-section, .last-section{
     background-color: rgb(228, 215, 215);
-    background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
 }
 
 .last-section{
     text-align: center;
 }
+
+.last-section path{
+    fill: gray;
+}
+
 
 h2{
     padding: 50px;
