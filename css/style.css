@@ -1,13 +1,52 @@
 /* GENERAL  */
-body{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 /* UTILITY  */
+.window{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-left{
+    float: right;
+}
+
 
 
 /* HEADER  */
+header{
+    background-color: #3161E0;
+    
+}
+
+.header-top{
+    background: greenyellow;
+}
+
+
+.mini-space{
+    background: rgb(170, 170, 157);
+    width: 20%;
+}
+
+nav{
+    background-color: red;
+    width: 60%;
+
+}
 
 
 
@@ -15,3 +54,19 @@ body{
 
 
 /* FOOTER  */
+
+
+/* TEST'S FOR POSITIONS AND SIZE */
+.header-top,.mini-space,nav{
+    min-height: 50px;
+}
+
+
+    
+
+
+
+
+
+
+
