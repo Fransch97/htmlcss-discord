@@ -334,5 +334,17 @@ header .jumbo .jumbo-content ul li  #on-brows:hover{
 
 }
 
+.header-top .window nav ul li a:hover{
+    color: #ff00ea;
 
+}
 
+.register a:hover{
+    color: #ff00ea;
+
+}
+
+#bottom-button:hover{
+    color: #ff00ea;
+
+}
