@@ -97,7 +97,7 @@ a{
 
 /* account  */
 .account a{
-    color: #3161E0;
+    color: #255EE9;
     background-color: white;
     padding: 9px;
     border-radius: 20px;
@@ -110,19 +110,56 @@ a{
 /* jumbo */
 .jumbo{
     background-color: red;
-    min-height: 50vh;
+    min-height: 65vh;
     text-align: center;
     position: relative;
+    background-image: url(../img/jumbo.png);
+    position: center;
+    background-size: cover;
 }
 
+/* jumbo content  */
 .jumbo-content{
-    background-color: yellow;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
+    color: white;
     
 }
+
+header .jumbo .jumbo-content h1{
+    font-size: 70px;
+    padding-top: 115px ; 
+    margin-bottom: 60px;
+
+}
+header .jumbo .jumbo-content p{
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+header .jumbo .jumbo-content ul li{
+    margin-right: 30px
+}
+header .jumbo .jumbo-content ul li a{
+    /* width: 300px; per il secondo */
+    line-height: 50px;
+    border-radius: 30px;
+}
+header .jumbo .jumbo-content ul li  #down-mac{
+    background-color: white;
+    width: 210px;
+    color: black;
+}
+header .jumbo .jumbo-content ul li  #on-brows{
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+
 
 
 
