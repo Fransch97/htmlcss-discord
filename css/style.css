@@ -1,3 +1,8 @@
+
+
+
+
+
 /* GENERAL  */
 *{
     margin: 0;
@@ -170,13 +175,16 @@ header .jumbo .jumbo-content ul li  #on-brows{
 /* MAIN  */
 .wave{
     background-color: white;
-    color: red;
-    fill: red;
+    color: rgb(228, 215, 215);
 }
 .wave-gray{
     background-color: rgb(228, 215, 215);
+    color: white;
 }
 
+.last-section svg.wave{
+    color: rgb(228, 215, 215);
+}
 section .window{
     padding: 200px 0;
     
@@ -201,10 +209,6 @@ section .window{
 
 .last-section{
     text-align: center;
-}
-
-.last-section path{
-    fill: gray;
 }
 
 
