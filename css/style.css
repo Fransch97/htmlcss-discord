@@ -1,8 +1,4 @@
 
-
-
-
-
 /* GENERAL  */
 *{
     margin: 0;
@@ -76,9 +72,6 @@ h1{
     float: right;
 }
 
-
-
-
 /* HEADER  */
 
 /* header-top  */
@@ -113,8 +106,6 @@ h1{
     font-size: 0.9rem;
     margin-top: -1px;
 }
-
-
 
 /* jumbo */
 .jumbo{
@@ -163,14 +154,6 @@ header .jumbo .jumbo-content ul li  #on-brows{
     color: white;
     width: 300px;
 }
-
-
-
-
-
-
-
-
 
 /* MAIN  */
 .wave{
@@ -227,8 +210,6 @@ h2{
     color: white;
 }
 
-
-
 /* FOOTER  */
 
 footer{
@@ -239,19 +220,6 @@ footer{
 .discord-color{
     color: #7289DB;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer .window section div ul{
     list-style: none;
@@ -270,7 +238,6 @@ footer .window section div h3{
     border-bottom: solid 1px violet;
     margin-bottom: 30px;
 }
-
 
 .window .col{
     color: white;
@@ -309,42 +276,23 @@ footer .window section div h3{
     margin: 10px;
 }
 
-
-
-
 /* THE HOOVERS */
-.account a:hover{
+.account a:hover, 
+header .jumbo .jumbo-content ul li  #down-mac:hover,
+header .jumbo .jumbo-content ul li  #on-brows:hover,
+.socials a:hover,
+.col a:hover,
+.register a:hover,
+#bottom-button:hover{
     color: #ff00ea;
+    box-shadow: 0 8px 15px black;
 }
 
-header .jumbo .jumbo-content ul li  #down-mac:hover{
-    color: #ff00ea;
-}
-
-header .jumbo .jumbo-content ul li  #on-brows:hover{
-    color: #ff00ea;
-}
-
-.socials a:hover {
-    color: #ff00ea;
-
-}
-.col a:hover {
-    color: #ff00ea;
+.register a:hover{
+    box-shadow: 0 1px 5px white;
 
 }
 
 .header-top .window nav ul li a:hover{
-    color: #ff00ea;
-
-}
-
-.register a:hover{
-    color: #ff00ea;
-
-}
-
-#bottom-button:hover{
-    color: #ff00ea;
-
+    border-bottom: solid 1px white;
 }
